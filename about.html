@@ -98,7 +98,26 @@
             margin-bottom: 20px;
             line-height: 1.8;
         }
+.about-wrapper {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
 
+.about-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.about-image {
+    flex: 0 0 400px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
         /* Hamburger Menu */
         .hamburger {
             display: none;
@@ -187,6 +206,15 @@
             .about-content p {
                 font-size: 16px;
             }
+            .about-wrapper {
+    flex-direction: column-reverse;
+}
+
+.about-image {
+    flex: 1;
+    width: 100%;
+    margin-bottom: 30px;
+}
         }
     </style>
 </head>
@@ -218,12 +246,17 @@
     </div>
 
     <!-- About Section -->
-    <section>
+<section>
+    <div class="about-wrapper">
         <div class="about-content">
             <h1>About</h1>
             <p>Adda Jones studied Art History and Linguistics at Tulane University and now works at the Ogden Museum of Southern Art in New Orleans. She has been making acrylic paintings on canvas and wood blocks since the beginning of high school.</p>
         </div>
-    </section>
+        <div class="about-image">
+            <img src="path/to/your/photo.jpg" alt="Adda Jones">
+        </div>
+    </div>
+</section>
 
     <script>
         // Hamburger menu toggle
