@@ -124,9 +124,8 @@ section {
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none;
-    color: #ffffff;  /* ADD THIS LINE */
+    color: #ffffff;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 1);
-
 }
 
 .gallery-item:hover .gallery-caption {
@@ -302,10 +301,21 @@ h1 {
     line-height: 1.8;
 }
 
-.about-image {
-    flex: 0 0 400px;
+.about-content a {
+    color: #000000;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
 }
 
+.about-content a:hover {
+    opacity: 0.6;
+}
+
+.about-image {
+    flex: 1;  /* CHANGE THIS - makes it take up remaining space */
+    display: flex;
+    justify-content: center;
+}
 .about-image img {
     width: 100%;
     height: auto;

@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adda Likes to Paint - About</title>
-    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
-    <!-- Navigation -->
     <nav>
         <div class="hamburger" id="hamburger">
             <span></span>
@@ -27,19 +26,26 @@
         </div>
     </nav>
 
-    <!-- Mobile Menu -->
     <div class="mobile-menu" id="mobileMenu">
         <a href="about.html">About</a>
         <a href="https://instagram.com/addalikestopaint" target="_blank">Instagram</a>
         <a href="mailto:addalikestopaint@gmail.com">Contact</a>
     </div>
 
-    <!-- About Section -->
     <section>
         <div class="about-wrapper">
             <div class="about-content">
                 <h1>About</h1>
-                <p>Adda Jones studied Art History and Linguistics at Tulane University and now works at the Ogden Museum of Southern Art in New Orleans. She has been making acrylic paintings on canvas and wood blocks since the beginning of high school.</p>
+                <p>Adda Jones is originally from Brooklyn, New York. She graduated from Tulane University in 2025 with a Bachelor of Arts in Art History and Linguistics and a minor in Philosophy. In addition to her internship at the Parlour Gallery, Adda works full-time as the Executive Affairs Coordinator at the Ogden Museum of Southern Art.</p>
+                <p>Adda makes acrylic paintings on canvas and woodblocks. Growing up with architect parents, she developed an artistic perspective on the built environment. She often observes the spaces around her differently than her peers, mentally simplifying them into basic shapes. This way of seeing has consistently informed her artwork.</p><br><br>
+                
+                <h1>Artist Statement</h1>
+                <p>During the pandemic in 2020, I dedicated myself to painting in acrylic while completing my junior year of high school from home. I became fascinated by how my perspective shifts as my position within a room changes. I now use the spaces around me as inspiration for my paintings, abstracting shapes and creating new spaces on canvas. I let the details of this space fade away, allowing the outlines to stay. Some of my works reflect singular moments I've photographed, while others reimagine familiar rooms.</p><br><br>
+                
+                <h1>Contact</h1>
+                <p>Instagram: <a href="https://instagram.com/addalikestopaint" target="_blank">@addalikestopaint</a><br>
+                TikTok: <a href="https://tiktok.com/@addalikestopaint" target="_blank">@addalikestopaint</a><br>
+                Email: <a href="mailto:addalikestopaint@gmail.com">addalikestopaint@gmail.com</a></p>
             </div>
             <div class="about-image">
                 <img src="about.jpg" alt="Adda Jones">
@@ -48,18 +54,16 @@
     </section>
 
     <script>
-        // Hamburger menu toggle
         const hamburger = document.getElementById('hamburger');
         const mobileMenu = document.getElementById('mobileMenu');
 
-        hamburger.addEventListener('click', function() {
+        hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');
             mobileMenu.classList.toggle('active');
         });
 
-        // Close mobile menu when clicking on a link
         document.querySelectorAll('.mobile-menu a').forEach(link => {
-            link.addEventListener('click', function() {
+            link.addEventListener('click', () => {
                 hamburger.classList.remove('active');
                 mobileMenu.classList.remove('active');
             });
