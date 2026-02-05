@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adda Likes to Paint - About</title>
+    <title>About Adda Jones - Contemporary Artist</title>
+    <meta name="description" content="Learn about Adda Jones, a contemporary artist from Brooklyn creating acrylic paintings inspired by architecture and interior spaces. Tulane graduate working at the Ogden Museum of Southern Art.">
+    <meta name="keywords" content="Adda Jones, artist bio, contemporary painter, Tulane University, Ogden Museum, Brooklyn artist, New Orleans artist, acrylic painter">
+    <meta name="author" content="Adda Jones">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://augustrayjones.github.io/addalikestopaint/about.html">
+    <meta property="og:title" content="About Adda Jones - Contemporary Artist">
+    <meta property="og:description" content="Learn about Adda Jones, a contemporary artist from Brooklyn creating acrylic paintings inspired by architecture and interior spaces.">
+    <meta property="og:image" content="https://augustrayjones.github.io/addalikestopaint/about.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://augustrayjones.github.io/addalikestopaint/about.html">
+    <meta property="twitter:title" content="About Adda Jones - Contemporary Artist">
+    <meta property="twitter:description" content="Learn about Adda Jones, a contemporary artist from Brooklyn creating acrylic paintings inspired by architecture and interior spaces.">
+    <meta property="twitter:image" content="https://augustrayjones.github.io/addalikestopaint/about.jpg">
+    
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="canonical" href="https://augustrayjones.github.io/addalikestopaint/about.html">
 </head>
 <body>
     <nav>
@@ -21,16 +40,18 @@
             <a href="index.html">Adda Jones</a>
         </div>
         <div class="nav-right">
-            <a href="https://instagram.com/addalikestopaint" target="_blank">Instagram</a>
+            <a href="https://instagram.com/addalikestopaint" target="_blank" rel="noopener">Instagram</a>
             <a href="mailto:addalikestopaint@gmail.com">Contact</a>
         </div>
     </nav>
 
     <div class="mobile-menu" id="mobileMenu">
         <a href="about.html">About</a>
-        <a href="https://instagram.com/addalikestopaint" target="_blank">Instagram</a>
+        <a href="https://instagram.com/addalikestopaint" target="_blank" rel="noopener">Instagram</a>
         <a href="mailto:addalikestopaint@gmail.com">Contact</a>
     </div>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
 
     <section>
         <div class="about-wrapper">
@@ -43,12 +64,12 @@
                 <p>During the pandemic in 2020, I dedicated myself to painting in acrylic while completing my junior year of high school from home. I became fascinated by how my perspective shifts as my position within a room changes. I now use the spaces around me as inspiration for my paintings, abstracting shapes and creating new spaces on canvas. I let the details of this space fade away, allowing the outlines to stay. Some of my works reflect singular moments I've photographed, while others reimagine familiar rooms.</p><br><br>
                 
                 <h1>Contact</h1>
-                <p>Instagram: <a href="https://instagram.com/addalikestopaint" target="_blank">@addalikestopaint</a><br>
-                TikTok: <a href="https://tiktok.com/@addalikestopaint" target="_blank">@addalikestopaint</a><br>
+                <p>Instagram: <a href="https://instagram.com/addalikestopaint" target="_blank" rel="noopener">@addalikestopaint</a><br>
+                TikTok: <a href="https://tiktok.com/@addalikestopaint" target="_blank" rel="noopener">@addalikestopaint</a><br>
                 Email: <a href="mailto:addalikestopaint@gmail.com">addalikestopaint@gmail.com</a></p>
             </div>
             <div class="about-image">
-                <img src="about.jpg" alt="Adda Jones">
+                <img src="about.jpg" alt="Portrait of artist Adda Jones">
             </div>
         </div>
     </section>
@@ -57,8 +78,8 @@
         <div class="footer-content">
             <div class="footer-links">
                 <a href="about.html">About</a>
-                <a href="https://instagram.com/addalikestopaint" target="_blank">Instagram</a>
-                <a href="https://tiktok.com/@addalikestopaint" target="_blank">TikTok</a>
+                <a href="https://instagram.com/addalikestopaint" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://tiktok.com/@addalikestopaint" target="_blank" rel="noopener">TikTok</a>
                 <a href="mailto:addalikestopaint@gmail.com">Contact</a>
             </div>
             <div class="footer-copyright">
@@ -70,6 +91,23 @@
     <script>
         const hamburger = document.getElementById('hamburger');
         const mobileMenu = document.getElementById('mobileMenu');
+        const backToTop = document.getElementById('backToTop');
+
+        // Back to top button
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
 
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');
