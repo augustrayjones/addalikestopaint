@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Homepage / Main Gallery -->
+    <url>
+        <loc>https://augustrayjones.github.io/addalikestopaint/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        
+        <!-- Featured Images for Discovery -->
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_6231.jpg</image:loc>
+            <image:title>Porch Up the Hill</image:title>
+            <image:caption>Porch Up the Hill, 2026, acrylic on canvas, 40x30in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_6228.jpg</image:loc>
+            <image:title>Untitled</image:title>
+            <image:caption>Untitled, 2026, acrylic on canvas, 24x30in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_6233.jpg</image:loc>
+            <image:title>Untitled</image:title>
+            <image:caption>Untitled, 2026, acrylic on wood block, 8x10in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_6246.png</image:loc>
+            <image:title>Pink</image:title>
+            <image:caption>Pink, 2026, acrylic on wood block, 8x10in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_6244.jpg</image:loc>
+            <image:title>Blue</image:title>
+            <image:caption>Blue, 2026, acrylic on wood block, 8x10in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_6215.jpg</image:loc>
+            <image:title>Nova Scotia 2</image:title>
+            <image:caption>Nova Scotia 2, 2025, acrylic on canvas, 12x16in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_6217.jpg</image:loc>
+            <image:title>Porch</image:title>
+            <image:caption>Porch, 2025, acrylic on canvas, 12x16in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_6219.jpg</image:loc>
+            <image:title>Nova Scotia 1</image:title>
+            <image:caption>Nova Scotia 1, 2025, acrylic on canvas, 12x16in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_6224.jpg</image:loc>
+            <image:title>In the Studio</image:title>
+            <image:caption>In the Studio, 2025-2026, acrylic on canvas, 24x30in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_6212.jpg</image:loc>
+            <image:title>Untitled</image:title>
+            <image:caption>Untitled, 2025, acrylic on canvas, 24x30in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/old/OWAN.jpg</image:loc>
+            <image:title>Untitled</image:title>
+            <image:caption>Untitled, 2025, acrylic on wood block, 12x12in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/old/20_2021.jpg</image:loc>
+            <image:title>Untitled</image:title>
+            <image:caption>Untitled, 2024, acrylic on canvas, 24x30in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_1777.jpg</image:loc>
+            <image:title>Tuesday Brunch</image:title>
+            <image:caption>Tuesday Brunch, 2023, acrylic on wood block, 8x10in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_2644.jpg</image:loc>
+            <image:title>8 + 1</image:title>
+            <image:caption>8 + 1, 2023, acrylic on canvas panels, each 4x6in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_2647.jpg</image:loc>
+            <image:title>Untitled</image:title>
+            <image:caption>Untitled, 2023, acrylic on canvas, 12x16in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/old/FullSizeRender.jpg</image:loc>
+            <image:title>Untitled</image:title>
+            <image:caption>Untitled, 2023, acrylic on canvas, 12x12in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/old/IMG_3879.jpg</image:loc>
+            <image:title>Untitled (Pool)</image:title>
+            <image:caption>Untitled (Pool), 2023, acrylic on wood block, 12x12in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/31_2022.jpg</image:loc>
+            <image:title>Untitled</image:title>
+            <image:caption>Untitled, 2022, acrylic on canvas, 24x30in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/IMG_1779.jpg</image:loc>
+            <image:title>Untitled</image:title>
+            <image:caption>Untitled, 2022, acrylic on canvas, 24x30in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/old/29_2022.jpg</image:loc>
+            <image:title>Untitled (Kitchen)</image:title>
+            <image:caption>Untitled (Kitchen), 2022, acrylic on canvas, 24x26in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/old/30_2022.jpg</image:loc>
+            <image:title>Untitled (shelves)</image:title>
+            <image:caption>Untitled (shelves), 2022, acrylic on canvas, 24x26in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/old/32_2022.jpg</image:loc>
+            <image:title>Untitled (Florence)</image:title>
+            <image:caption>Untitled (Florence), acrylic on wood block, 8x10in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/old/19_2021.jpg</image:loc>
+            <image:title>Untitled (shower)</image:title>
+            <image:caption>Untitled (shower), 2021, acrylic on canvas, 30x40in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/old/7.jpg</image:loc>
+            <image:title>Skylight</image:title>
+            <image:caption>Skylight, 2021, acrylic on canvas, 24x30in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/old/15_2021.jpg</image:loc>
+            <image:title>Wall/Floor/Ceiling</image:title>
+            <image:caption>Wall/Floor/Ceiling, 2021, acrylic on canvas, 36x48in. by Adda Jones</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/art/old/13_2021.jpg</image:loc>
+            <image:title>Untitled (Four of a Kind)</image:title>
+            <image:caption>Untitled (Four of a Kind), 2021, acrylic on wood block, each 8x10in. by Adda Jones</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- About Page -->
+    <url>
+        <loc>https://augustrayjones.github.io/addalikestopaint/about.html</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://augustrayjones.github.io/addalikestopaint/about.jpg</image:loc>
+            <image:title>Adda Jones Portrait</image:title>
+            <image:caption>Portrait of artist Adda Jones</image:caption>
+        </image:image>
+    </url>
+    
+</urlset>
